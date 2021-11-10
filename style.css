@@ -1,0 +1,162 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 380px;
+    height: 230px;
+    margin-top: 10%;
+    border:.8px solid #ccc;
+    border-radius: 5px;
+    background: rgb(254,254,254);
+background: linear-gradient(130deg, rgba(254,254,254,1) 0%, rgba(42,123,162,1) 68%, rgba(21,69,158,1) 100%);
+    box-shadow: 2px 5px 5px;
+
+}
+.wrapper:after{
+    content : "";
+}
+.header{
+    width:100%;
+    height: 17%;
+    
+}
+.inline{
+    display: inline-block;
+    
+}
+.logo{
+    height: 100%;
+    width: 10%;
+    margin:5px;
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+.school{
+    font-size: 10.5px;
+    font-weight:700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    line-height: 40px;
+
+}
+.content{
+    width:100%;
+    height: 66%;   
+    position:relative;
+}
+.content img.logox{
+    position: absolute;
+    max-width: 30%;
+    height:auto;
+    left: 80px;
+    top:20px;
+    opacity: 0.5;
+    
+}
+.img_student{
+    width:27%;
+    height: 100%;
+    position: relative;
+}
+.img_student img{
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.info_student{
+    width: 70%;
+    height: 100%;
+    position:relative;
+}
+.title{
+    width: 100%;
+    height: 25%;
+    display:block;
+    justify-content: center;
+    line-height: 19px;
+}
+.title h4{
+    color: rgb(181, 63, 9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25%;
+}
+.title p.ID_card{
+    color:rgb(30, 48, 106);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 700 ;
+    margin-left: 28%;
+}
+.student_name{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    word-break: keep-all;
+    margin-left: .7rem;
+    
+}
+.info_student p{
+    font-size: 12px;
+    margin-left: .7rem;
+}
+.footer-p{
+    color:rgb(30, 48, 106);
+    font-style: italic;
+}
+.footer{
+    width:100%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+
+}
+.mssv{
+    width: 25%;
+    height: 100%; 
+    font-weight: 900;
+    line-height: 40px;
+    margin-left: 10px;
+    
+}
+.line_code{
+    width: 40%;
+    height: 100%;
+
+}
+.valid_date{
+
+}
+.arae1{
+    margin-left: 10px;
+    width: 60%;
+    font-size: 10px;
+}
+.arae1 p{
+    color:#fff;
+
+}
+.arae1 span{
+    color:rgb(194, 121, 79);
+    font-style: italic;
+    margin-left: 15px;
+}
+.arae2{
+    color:#fff;
+    width: 21%;
+    font-size: 10px;
+    word-break: break-all;
+    
+}
